@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS orders_count FROM orders WHERE employee_id LIKE '5' OR employee_id LIKE '6' AND shipper_id = 2;
